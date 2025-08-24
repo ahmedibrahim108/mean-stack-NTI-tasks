@@ -10,18 +10,42 @@
   </head>
   <body>
     <div class="container">
-      <input type="text" placeholder="Enter Product name" id="Product_name" />
-      <input type="text" placeholder="Enter Product price" id="Product_price" />
-      <input
-        type="text"
-        placeholder="Enter Product description"
-        id="Product_description"
-      />
+      <h1>Product Information form</h1>
 
-      <button id="btn" onclick="whenSubmited()">Submit</button>
+      <section>
+        <div class="form-group">
+          <label for="product_name">Product Name</label>
+          <input
+            type="text"
+            placeholder="Enter Product name"
+            id="Product_name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="product-price">Product Price</label>
+          <input
+            type="number"
+            placeholder="Enter Product price"
+            id="Product_price"
+            required
+          />
+        </div>
+        <div class="product-descriptin">
+          <label for="product-description">Product Description</label>
+          <input
+            type="text"
+            placeholder="Enter Product description"
+            id="Product_description"
+          />
+        </div>
+        <button id="btn" onclick="whenSubmited()">Submit</button>
+      </section>
 
-      <p id="par1"></p>
-      <p id="par1"></p>
+      <div class="output">
+        <h2>Submited products</h2>
+        <p id="par1" class="product-info"></p>
+      </div>
     </div>
   </body>
 </html>
