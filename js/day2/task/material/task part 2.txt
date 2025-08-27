@@ -1,0 +1,23 @@
+Task1: 
+1. Create an array of 10 numbers (it can include both positive and negative values). 
+2. Use a for loop to iterate through the array and calculate the sum of all positive 
+numbers. 
+3. Use continue to skip any negative values during the iteration. 
+4. Use console.log() to display: 
+a. The sum of positive numbers. 
+b. The sum of all numbers in the array (including both positive and negative). 
+5. Finally, modify the array by adding a new number at the end, and remove the first 
+element using the 
+Task2: 
+1. Create an object representing a student with the following properties: 
+a. name (String). 
+b. age (Number). 
+c. grade (String). 
+d. isGraduated (Boolean). 
+2. Display the student's name and age using console.log(). 
+3. Change the grade of the student to a new value (e.g., "A"). 
+4. Use the Object.keys() method to display all the properties of the object. 
+5. Use the Object.values() method to display all the values of the object. 
+6. Add a new property called email to the object and set it to an email address. 
+7. Use the delete keyword to remove the isGraduated property from the object and 
+display the updated object
