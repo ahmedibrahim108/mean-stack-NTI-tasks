@@ -1,5 +1,6 @@
 export default class Shape {
   constructor(lenght) {
+    // abstraction
     if (this.constructor == Shape) {
       throw new Error("Can't create Instance From this class");
     }
