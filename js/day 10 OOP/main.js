@@ -4,14 +4,14 @@ import rectangel from "./script/rectangle.js";
 import square from "./script/square.js";
 
 // Circle
-let c1 = new circle(7);
-console.log(c1);
+// let c1 = new circle(7);
+// console.log(c1);
 
-// Circle Area
-console.log(c1.Area());
+// // Circle Area
+// console.log(c1.Area());
 
-// Circle Primeter
-console.log(c1.Primeter());
+// // Circle Primeter
+// console.log(c1.Primeter());
 
 ////////////////////////////////////
 
@@ -34,11 +34,11 @@ console.log(c1.Primeter());
 //////////////////////////////////////
 
 //Square
-// let s1 = new square(10);
-// console.log(s1);
+let s1 = new square(7);
+console.log(s1);
 
-// //Square Area
-// console.log(s1.Area());
+//Square Area
+console.log(s1.Area());
 
-// //Square Primeter
-// console.log(s1.Primeter());
+//Square Primeter
+console.log(s1.Primeter());
