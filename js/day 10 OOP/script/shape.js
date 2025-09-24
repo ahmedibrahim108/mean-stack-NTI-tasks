@@ -1,17 +1,22 @@
 export default class Shape {
-  constructor(lenght) {
+  constructor(d1, d2) {
     // abstraction
     if (this.constructor == Shape) {
       throw new Error("Can't create Instance From this class");
     }
-    this.lenght = lenght;
+    this.d1 = d1;
+    this.d2 = d2;
   }
 
   Area() {
-    return `Area of `;
+    return this.d1 * this.d2;
   }
 
   Primeter() {
-    return `Primeter of `;
+    return (this.d1 + this.d2) * 2;
+  }
+
+  display() {
+    return ` Area ${this.Area()} and Primeter ${this.Primeter()} `;
   }
 }

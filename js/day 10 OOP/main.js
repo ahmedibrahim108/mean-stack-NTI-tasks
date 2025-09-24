@@ -7,11 +7,8 @@ import square from "./script/square.js";
 // let c1 = new circle(7);
 // console.log(c1);
 
-// // Circle Area
-// console.log(c1.Area());
-
-// // Circle Primeter
-// console.log(c1.Primeter());
+// // Circle display
+// console.log(c1.display());
 
 ////////////////////////////////////
 
@@ -22,11 +19,8 @@ import square from "./script/square.js";
 // let r4 = new rectangel(10, 7);
 // console.log(r1);
 
-// // Rectangle Area
-// console.log(r1.Area());
-
-// // Rectangle Primeter
-// console.log(r1.Primeter());
+// // Rectangle display
+// console.log(r1.display(9, 8));
 
 // // Recatangle Count
 // console.log(rectangel.displayRectCount());
@@ -34,11 +28,8 @@ import square from "./script/square.js";
 //////////////////////////////////////
 
 //Square
-let s1 = new square(7);
-console.log(s1);
+// let s1 = new square(7);
+// console.log(s1);
 
-//Square Area
-console.log(s1.Area());
-
-//Square Primeter
-console.log(s1.Primeter());
+// // display
+// console.log(s1.display());

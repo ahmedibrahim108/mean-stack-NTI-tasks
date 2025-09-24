@@ -4,18 +4,9 @@ export default class Rectangel extends shape {
   //bind this prop to the class only nit the instance
   static count = 0;
 
-  constructor(lenght, width) {
-    super(lenght);
-    this.width = width;
+  constructor(d1, d2) {
+    super(d1, d2);
     Rectangel.count++;
-  }
-
-  Area() {
-    return `Rectangel Area = ${this.lenght * this.width} cm2`;
-  }
-
-  Primeter() {
-    return `Rectangle Primeter = ${(this.lenght + this.width) * 2} cm`;
   }
 
   //bind this method to the class only nit the instance
@@ -23,3 +14,14 @@ export default class Rectangel extends shape {
     return `Rectungle Count = ${Rectangel.count}`;
   }
 }
+
+/**
+ *   Area() {
+    return `Rectangel Area = ${this.lenght * this.width} cm2`;
+  }
+
+  Primeter() {
+    return `Rectangle Primeter = ${(this.lenght + this.width) * 2} cm`
+  }
+  
+ */
